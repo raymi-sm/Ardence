@@ -21,6 +21,14 @@
 	
 	<script src="https://raw.github.com/rafaelp/css_browser_selector/master/css_browser_selector.js"></script>
 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+	<script src="js/FlexSlider/jquery.flexslider.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+  jQuery(window).load(function(){jQuery('#slider').flexslider({controlsContainer:".flex-nav-container"});});
+</script>
+
 	<title>Ardence</title>
 </head>
 <body>
@@ -56,10 +64,10 @@
 
 	<section id="featured">
 		<div class="container">
-			<div id="description">
+			<div id="description" class="floated">
 				<h1>A heading will go here</h1>
 				<p>
-					.
+					Adipisicing elit,sed do eiusmod temporincididunt ut labore etitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irur dolor in reprehenderit in
 				</p>
 
 				<div>
@@ -69,7 +77,7 @@
 				</div>
 			</div>
 
-			<div id="slider">
+			<div id="slider" class="floated">
 				<ul id="slides">
 					<li><a href=""><img src="images/slider-img-1.jpg" alt="#" /></a></li>
 					<li><a href=""><img src="images/slider-img-2.jpg" alt="#" /></a></li>
@@ -77,9 +85,9 @@
 					<li><a href=""><img src="images/slider-img-4.jpg" alt="#" /></a></li>
 				</ul>
 
-				<div>
-					<a href="">&lt;</a>
-					<a href="">&gt;</a>
+				<div id="arrows">
+					<a href="" id="next">&lt;</a>
+					<a href="" id="prev">&gt;</a>
 				</div>
 			</div>
 		</div><!-end container-->
@@ -88,7 +96,7 @@
 
 	<div class="main">
 		<div class="container">
-			<aside>
+			<aside class="floated">
 				<ul>
 					<li>
 						<h3>Twitter</h3>
@@ -110,7 +118,7 @@
 				</ul>
 			</aside>
 
-			<section class="secundary">
+			<section class="secondary floated">
 				<section id="about">
 					<h1>What is Ardence</h1>
 					<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be?Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be?</p>
@@ -130,15 +138,19 @@
 					</section>
 
                     <section id="testimonial">
-<blockquote>                             <p>
-Now that we know who you are, I know who I am. I'm not a mistake! It all makes
-sense! In a comic, you know how you can tell who the arch-villain's going to
-be?Now that we know who you are, I know who I am. I'm not a mistake!
-</p>                             <cite title="Autor Inventado">
--Dr Anderson                                 <span>XYZ Company.inc</span>
-</cite>                         </blockquote>                     </section>
-</div>             </section>         </div><!-end container-->
-</div><!-end main-->
+						<blockquote> 
+						<p>
+						Now that we know who you are, I know who I am. I'm not a mistake! It all makes
+						sense! In a comic, you know how you can tell who the arch-villain's going to
+						be?Now that we know who you are, I know who I am. I'm not a mistake!
+						</p> <cite title="Autor Inventado">
+						-Dr Anderson                                 <span>XYZ Company.inc</span></cite>
+             			</blockquote>                     
+             		</section>
+				</div>             
+			</section>         
+		</div><!-end container-->
+	</div><!-end main-->
 
 	<footer>
 		<div class="container">
@@ -161,7 +173,5 @@ be?Now that we know who you are, I know who I am. I'm not a mistake!
 
 		<p> &copy; 2012 SiteName | All Rights Reserved </p>
 	</footer>
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </body>
 </html>

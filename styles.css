@@ -8,27 +8,31 @@ header{ background:#060606; border-bottom: 1px solid #4c4c4c; height: 50px; }
 
 header .container{ position: relative;}
 
-header .menu{ line-height: 50px; position: absolute; right: 0; width: 66.66667%; }
+header .menu{ float: right; line-height: 50px; }
 
 header .menu li ul li{ display: none; }
 
-header .menu li:first-child{  }
+header .menu li:last-child{ padding-right: 0; }
 
 header .menu a{ font-family: 'Cantarell'; color: #dedede; }
 
 header .menu a:hover, header .menu a:active, header .menu a:visited{ color: #a4b2d9; }
 
+li{ list-style: none; }
+
 /*----------------------------Clases-----------------------------*/
 
-.container{ background-color: red; margin: 0 auto; width: 80%; }
+.container{ margin: 0 auto; width: 80%; }
 
 .floated{ display: inline-block; vertical-align:top; }
 
-.logo img{ position: absolute; top: 0px; }
+.logo img{ max-width: 100%; margin: 0 -5px 0 0; }
 
-.menu ul li{ display: inline-block; vertical-align: top; margin: 0 -5px 0 0; }
+.main{ margin: 220px 0 0 0; }
 
-.menu a{ font-size: 13px; text-transform: uppercase; }
+.menu ul li{ display: inline-block; margin: 0 -5px 0 0; padding: 0 5.5em 0 0; vertical-align: top; }
+
+.menu a{ font-size: 0.8em; text-transform: uppercase; }
 
 #featured{ 
 background: #7528be; /* Old browsers */
@@ -45,9 +49,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7528be', end
 padding-top: 50px;
  }
 
+ .secondary, #slider{ width:54.79452%; }
+
 
 /*----------------------------IDs-----------------------------*/
 
+#arrows{ position: relative; z-index:100; }
+
+#description, aside{ width: 38.2291%; }
 
 
 
