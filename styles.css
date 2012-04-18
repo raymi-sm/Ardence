@@ -8,7 +8,7 @@ header{ background:#060606; border-bottom: 1px solid #4c4c4c; height: 50px; }
 
 header .container{ position: relative;}
 
-header .menu{ width: 57%; line-height: 50px; position: absolute; right: 0; }
+header .menu{ line-height: 50px; position: absolute; right: 0; width: 66.66667%; }
 
 header .menu li ul li{ display: none; }
 
@@ -20,13 +20,13 @@ header .menu a:hover, header .menu a:active, header .menu a:visited{ color: #a4b
 
 /*----------------------------Clases-----------------------------*/
 
-.container{ background-color: red; margin: 0 auto; width: 90%; }
+.container{ background-color: red; margin: 0 auto; /*width: 960px;*/ width: 60%; }
 
 .floated{ display: inline-block; vertical-align:top; }
 
 .logo img{ position: absolute; top: 0px; }
 
-.menu ul li{ display: inline-block; vertical-align: top; }
+.menu ul li{ display: inline-block; vertical-align: top; margin: 0 -5px 0 0; }
 
 .menu a{ font-size: 13px; text-transform: uppercase; }
 
