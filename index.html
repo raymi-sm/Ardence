@@ -26,7 +26,12 @@
 	<script src="js/FlexSlider/jquery.flexslider.js"></script>
 
 	<script type="text/javascript" charset="utf-8">
-  jQuery(window).load(function(){jQuery('#slider').flexslider({controlsContainer:".flex-nav-container"});});
+  $(window).load(function() {
+    $('.flexslider').flexslider(
+    {animation: "fade"});
+  });
+</script>
+  
 </script>
 
 	<title>Ardence</title>
