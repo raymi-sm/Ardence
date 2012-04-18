@@ -20,7 +20,7 @@ header .menu a:hover, header .menu a:active, header .menu a:visited{ color: #a4b
 
 /*----------------------------Clases-----------------------------*/
 
-.container{ background-color: red; margin: 0 auto; width: 80%; }
+.container{ background-color: red; margin: 0 auto; width: 960px; }
 
 .floated{ display: inline-block; vertical-align:top; }
 
