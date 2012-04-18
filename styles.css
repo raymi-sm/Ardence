@@ -1,3 +1,5 @@
+/*----------------------------Elementos-----------------------------*/
+
 * { margin: 0; padding: 0; }
 
 a{ text-decoration:none; }
@@ -6,15 +8,7 @@ header{ background:#060606; border-bottom: 1px solid #4c4c4c; height: 50px; }
 
 header .container{ position: relative;}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-header .menu{ width: 327px; line-height: 50px; position: absolute; right: 0; }
-=======
-header .menu{ width: 37%; line-height: 50px; position: absolute; right: 0; }
->>>>>>> gradiente
-=======
 header .menu{ width: 57%; line-height: 50px; position: absolute; right: 0; }
->>>>>>> Texto
 
 header .menu li ul li{ display: none; }
 
@@ -24,7 +18,9 @@ header .menu a{ font-family: 'Cantarell'; color: #dedede; }
 
 header .menu a:hover, header .menu a:active, header .menu a:visited{ color: #a4b2d9; }
 
-.container{ margin: 0 auto; width: 920px; }
+/*----------------------------Clases-----------------------------*/
+
+.container{ background-color: red; margin: 0 auto; width: 90%; }
 
 .floated{ display: inline-block; vertical-align:top; }
 
@@ -48,6 +44,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7528be', end
 
 padding-top: 50px;
  }
+
+
+/*----------------------------IDs-----------------------------*/
+
 
 
 
