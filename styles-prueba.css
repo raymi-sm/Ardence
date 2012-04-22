@@ -1,0 +1,24 @@
+body{ overflow: hidden; }
+
+img{ margin: 20px; }
+
+img:nth-of-type(2n+1){ border:1px solid blue; }
+
+p { padding: 10px 20px; color: green; }
+
+p:not(.musica){ color: yellow; }
+
+.container { border: 1px solid black; margin: 20px auto; width: 900px; }
+
+.elemento{ background: grey; border: 5px solid #cdcdcd; color: white; margin: 0 30px 20px 30px;}
+
+.elemento p:nth-last-of-type(2){ color: red; }
+
+p:not(.musica):first-letter{ color: purple; font-size: 80px; }
+
+.floated{ display: inline-block; vertical-align: top; }
+
+#col-1{ background:red; height: 400px; }
+
+#col-2{ background:blue; width: 400px; position: absolute; top: 100px; bottom: 0;}
+

@@ -4,25 +4,31 @@
 
 a{ text-decoration:none; }
 
+body{ font-family:Arial; font-size: 16px; }
+
+h1, h2, h3{ font-family: Georgia; }
+
 header{ background:#060606; border-bottom: 1px solid #4c4c4c; height: 50px; }
 
-header .container{ position: relative;}
-
-header .menu{ float: right; line-height: 50px; }
+header .menu{ line-height: 50px; margin: 0 0 0 87px; }
 
 header .menu li ul li{ display: none; }
 
-header .menu li:last-child{ padding-right: 0; }
+header .menu li{ margin: 0 -5px 0 0; }
 
-header .menu a{ font-family: 'Cantarell'; color: #dedede; }
+header .menu a{ font-family: 'Cantarell'; color: #dedede; margin: 0 60px 0 0; }
 
 header .menu a:hover, header .menu a:active, header .menu a:visited{ color: #a4b2d9; }
+
+header .menu li:first-child a{ background: url("images/triangulo-menu-dropdown.png") no-repeat 100%; padding: 0 10px 0 0; }
+
+header .menu li:last-child a{ margin-right: 0; }
 
 li{ list-style: none; }
 
 /*----------------------------Clases-----------------------------*/
 
-.container{ margin: 0 auto; width: 80%; }
+.container{ margin: 0 auto; width: 100%; max-width: 912px; }
 
 .floated{ display: inline-block; vertical-align:top; }
 
@@ -30,38 +36,30 @@ li{ list-style: none; }
 
 .main{ margin: 220px 0 0 0; }
 
-.menu ul li{ display: inline-block; margin: 0 -5px 0 0; padding: 0 5.5em 0 0; vertical-align: top; }
+.menu ul li{ display: inline-block; vertical-align: top; }
 
-.menu a{ font-size: 0.8em; text-transform: uppercase; }
+.menu a{ display: block; font-size: 0.8em; text-transform: uppercase; }
 
-#featured{ 
-background: #7528be; /* Old browsers */
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc1MjhiZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ5JSIgc3RvcC1jb2xvcj0iI2E0NWJkNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-background: -moz-linear-gradient(top,  #7528be 0%, #a45bd5 49%, #ffffff 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7528be), color-stop(49%,#a45bd5), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #7528be 0%,#a45bd5 49%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #7528be 0%,#a45bd5 49%,#ffffff 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #7528be 0%,#a45bd5 49%,#ffffff 100%); /* IE10+ */
-background: linear-gradient(top,  #7528be 0%,#a45bd5 49%,#ffffff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7528be', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+#featured{ background: url("images/gradient.jpg") repeat-x; }
 
-padding-top: 50px;
- }
-
- .secondary, #slider{ width:54.79452%; }
+ .secondary, #slider{ max-width:524px; width: 100%; }
 
 
 /*----------------------------IDs-----------------------------*/
 
 #arrows{ position: relative; z-index:100; }
 
-#description, aside{ width: 38.2291%; }
+#deco{ background:url("images/destacado"); }
 
+#description, aside{ width: 366px; }
 
+#featured .container{ background:url("images/destacado-bg.jpg") no-repeat 30px 0; padding-top: 20px; }
 
+#slider{ background: #fafafa; height: 100%; padding: 15px 0; }
 
+#slider img{ max-width: 100%; }
 
+#slides{ margin: 0 10px; }
 
 
 
@@ -141,19 +139,8 @@ padding-top: 50px;
 
 
 
-/*img{ margin: 20px; }
 
-img:nth-of-type(2n+1){ border:1px solid blue; }
 
-p { padding: 10px 20px; color: green; }
 
-p:not(.musica){ color: yellow; }
 
-.container { border: 1px solid black; margin: 20px auto; width: 500px; }
-
-.elemento{ background: grey; border: 5px solid #cdcdcd; color: white; margin: 0 30px 20px 30px;}
-
-.elemento p:nth-last-of-type(2){ color: red; }
-
-p:not(.musica):first-letter{ color: purple; font-size: 80px; }*/
 
