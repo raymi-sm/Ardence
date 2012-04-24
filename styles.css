@@ -109,7 +109,7 @@ background: linear-gradient(top,  #dedede 0%,#ffffff 10%,#f7f7f7 50%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-8 */
  border-top: 6px solid #dadada; padding: 100px 0 0 0; margin:-60px 0 40px 0; }
 
-.ie7 #description, .ie7 #slider{ background: red; zoom:1; display: inline; }
+.ie7 #description, .ie7 #slider, .ie7 .floated{ background: red; zoom:1; display: inline; }
 
 .meta{ color: #909090; font-weight: bolder; padding: 0 0 12px 0; }
 
