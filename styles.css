@@ -55,7 +55,7 @@ header .menu li ul li{ display: none; }
 
 header .menu li{ margin: 0 -5px 0 0; }
 
-header .menu a{ font-family: 'Cantarell'; color: #dedede; margin: 0 60px 0 0; }
+header .menu a{ font-family: 'Cantarell'; color: #dedede; margin: 0 64px 0 0; }
 
 header .menu a:hover, header .menu a:active, header .menu a:visited{ color: #a4b2d9; }
 
@@ -111,7 +111,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', end
 
 .ie7 #description, .ie7 #slider, .ie7 .floated, .ie7 .menu ul li{ background: red; zoom:1; display: inline; }
 
-.ie8 header .menu{ margin: 0 0 0 50px; } 
+.ie8 header .menu{ margin: 0 0 0 55px; } 
 
 .ie8 header .menu li{ background:purple; }
 
