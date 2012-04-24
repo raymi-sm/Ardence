@@ -49,7 +49,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e7e7', end
 
 header{ background:#060606; border-bottom: 1px solid #4c4c4c; height: 50px; }
 
-header .menu{ line-height: 50px; /*margin: 0 0 0 87px;*/ }
+header .menu{ line-height: 50px; margin: 0 0 0 87px; }
 
 header .menu li ul li{ display: none; }
 
