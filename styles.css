@@ -113,7 +113,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', end
 
 .ie8 header .menu{ margin: 0 0 0 50px; } 
 
-.ie8 header .menu li{ background:purple; }
+/*.ie8 header .menu li{ background:purple; }*/
 
 .ie8 header .menu a:last-child { background:green; }
 
