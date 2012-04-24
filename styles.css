@@ -111,9 +111,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', end
 
 .ie7 #description, .ie7 #slider, .ie7 .floated, .ie7 .menu ul li{ background: red; zoom:1; display: inline; }
 
-.ie8 header .menu{ margin: 0 0 0 55px; } 
+.ie8 header .menu{ margin: 0 0 0 50px; } 
 
 .ie8 header .menu li{ background:purple; }
+
+.ie8 header .menu a { margin: 0 80px 0 0; }
 
 .meta{ color: #909090; font-weight: bolder; padding: 0 0 12px 0; }
 
